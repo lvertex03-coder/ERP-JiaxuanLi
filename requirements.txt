@@ -1,5 +1,5 @@
-# Python environment actually used to produce the results in the dissertation.
-# Python 3.13.12 (macOS, arm64). Versions are the ones present at run time,
+# Python environment used to verify the reported results
+# (Python 3.13.12, macOS arm64). Versions recorded verbatim from that environment.
 # recorded verbatim rather than relaxed to ranges.
 #
 #   python3.13 -m venv .venv && source .venv/bin/activate
