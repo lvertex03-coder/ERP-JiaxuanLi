@@ -1,0 +1,45 @@
+# Nothing in this repository is version-controlled by the author; this file
+# exists so that the material below is never added if it ever is.
+
+# --- licensed source material that must not be redistributed ---
+# S&P Capital IQ earnings-call transcripts (.docx) and any file derived from
+# them that contains transcript wording.
+*.docx
+*.doc
+transcripts/
+raw_transcripts/
+
+# --- model weights and caches ---
+models/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+.cache/
+huggingface/
+transformers_cache/
+
+# --- environments ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# --- verification and scratch output ---
+verification/
+verification_tmp/
+qc/
+figures/
+interim/
+diagnostics/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
