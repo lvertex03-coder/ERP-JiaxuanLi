@@ -61,12 +61,12 @@ run the pipeline".
 
 ## 3. Repository structure
 
-64 files.
+66 files.
 
 ```
 erp_final_repository/
-├── README.md
-├── CODE_OUTPUT_MAP.md               table/number → script → output file mapping
+├── README.md/docx
+├── CODE_OUTPUT_MAP.md/docx          table/number → script → output file mapping
 ├── requirements.txt                 Python dependencies, pinned
 ├── R_packages.txt                   R package versions used for verification
 ├── .gitignore
