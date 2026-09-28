@@ -1,4 +1,4 @@
-R environment actually used for the cluster-robust inference and the mixed models.
+R environment used to verify the cluster-robust inference and the mixed models.
 
 R version 4.5.2 (2025-10-31), platform aarch64-apple-darwin20 (macOS).
 
