@@ -1,0 +1,33 @@
+8fc9dbfc2e66e0c1a99e8f03fb30f5e255f7bd401d33b63facd2c85a2d061729  reference/LoughranMcDonald_MasterDictionary.csv
+
+LOUGHRAN-McDONALD MASTER DICTIONARY -- PROVENANCE
+=================================================
+File           : reference/LoughranMcDonald_MasterDictionary.csv
+Obtained from  : pysentiment2 v0.1.1 (PyPI wheel
+                 pysentiment2-0.1.1-py3-none-any.whl), file
+                 pysentiment2/static/LM.csv
+Vendored on    : 2026-09-09, so the pipeline is reproducible offline and the
+                 dictionary cannot change under the analysis.
+
+VERSION IDENTIFICATION (by content, not by claim)
+Total entries  : 86,486
+Category counts (words with a non-zero year flag):
+   Negative     2,355
+   Positive       354
+   Uncertainty    297
+   Litigious      904
+   Modal           60
+These match the published Loughran-McDonald Master Dictionary 2018 release
+exactly, which identifies the version.
+
+Schema: Word, Sequence Number, Word Count, Word Proportion, Average
+Proportion, Std Dev, Doc Count, Negative, Positive, Uncertainty, Litigious,
+Constraining, Superfluous, Interesting, Modal, Irr_Verb, Harvard_IV,
+Syllables, Source
+
+A non-zero category value is the YEAR the word entered that category; any
+non-zero value therefore means "member of this category".
+
+Citation: Loughran, T. and McDonald, B. (2011), "When Is a Liability Not a
+Liability? Textual Analysis, Dictionaries, and 10-Ks", Journal of Finance
+66(1), 35-65.

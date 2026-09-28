@@ -1,0 +1,25 @@
+{
+  "model_name": "yiyanghkust/finbert-tone",
+  "resolved_revision_commit_sha": "4921590d3c0c3832c0efea24c8381ce0bda7844b",
+  "config_id2label": {
+    "0": "Neutral",
+    "1": "Positive",
+    "2": "Negative"
+  },
+  "config_num_labels": 3,
+  "transformers_version": "4.57.6",
+  "torch_version": "2.14.0",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_model_max_length_raw": 1000000000000000019884624838656,
+  "config_max_position_embeddings": 512,
+  "usable_input_length_used": 510,
+  "usable_length_note": "This checkpoint ships no tokenizer_config.json, so tokenizer.model_max_length is the uninitialised sentinel (~1e30) rather than a real limit. The effective limit is taken from config.max_position_embeddings and reduced by the two special tokens ([CLS], [SEP]).",
+  "execution_timestamp": "2026-09-16T12:36:54",
+  "python_version": "3.13.12",
+  "device": "mps",
+  "resolved_label_indices": {
+    "neutral": 0,
+    "positive": 1,
+    "negative": 2
+  }
+}

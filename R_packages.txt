@@ -1,0 +1,22 @@
+R environment actually used for the cluster-robust inference and the mixed models.
+
+R version 4.5.2 (2025-10-31), platform aarch64-apple-darwin20 (macOS).
+
+Package        Version   Used by
+-------------  --------  ----------------------------------------------------
+clubSandwich   0.7.0     CR2 (Bell-McCaffrey) SEs, Satterthwaite df,
+                         coef_test / conf_int / linear_contrast /
+                         Wald_test(test = "HTZ")
+lme4           1.1-37    random-intercept models (firm random effect)
+lmerTest       3.2-1     Satterthwaite df for the lme4 models
+sandwich       3.1-1     loaded by 16b_rq2_cluster_reanalysis.R but not used
+                         for any reported estimate (clubSandwich supplies all
+                         CR2 quantities); listed here for completeness
+Matrix         1.7-4     lme4 dependency
+
+Install with:
+
+    install.packages(c("clubSandwich", "lme4", "lmerTest", "sandwich"))
+
+Rscript is located at run time via the ERP_RSCRIPT environment variable, or
+otherwise from PATH.

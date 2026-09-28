@@ -1,0 +1,5 @@
+"measure","implementation","replications","weights","restricted_null","cluster_variable","seed","observed_t","bootstrap_p","note"
+"fog_index","manual restricted-null wild cluster bootstrap (clubSandwich CR2 t-statistic)",9999,"Rademacher",TRUE,"firm",20260913,-11.9220196289439,1e-04,"percentile-t p-value; CI not reported for this implementation"
+"lm_positive","manual restricted-null wild cluster bootstrap (clubSandwich CR2 t-statistic)",9999,"Rademacher",TRUE,"firm",20260913,-6.20571865778851,1e-04,"percentile-t p-value; CI not reported for this implementation"
+"lm_negative","manual restricted-null wild cluster bootstrap (clubSandwich CR2 t-statistic)",9999,"Rademacher",TRUE,"firm",20260913,0.106339895811609,0.9154,"percentile-t p-value; CI not reported for this implementation"
+"lm_uncertainty","manual restricted-null wild cluster bootstrap (clubSandwich CR2 t-statistic)",9999,"Rademacher",TRUE,"firm",20260913,-5.61855502693761,2e-04,"percentile-t p-value; CI not reported for this implementation"
