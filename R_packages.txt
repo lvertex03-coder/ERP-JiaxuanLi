@@ -20,3 +20,7 @@ Install with:
 
 Rscript is located at run time via the ERP_RSCRIPT environment variable, or
 otherwise from PATH.
+
+The wild cluster bootstrap is implemented directly in
+16b_rq2_cluster_reanalysis.R; no additional package is required.
+
